@@ -1,6 +1,7 @@
 package com.nimisaya.languagematters
 
 import android.os.Bundle
+import android.text.BidiFormatter
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.Column
@@ -32,15 +33,18 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting(name: String) {
+    val bidiFormatter: BidiFormatter = BidiFormatter.getInstance()
+    val helloText = String.format(stringResource(id = R.string.hello), bidiFormatter.unicodeWrap(name))
+
     Column {
-        Text(text = stringResource(id = R.string.hello) + name)
+        Text(text = helloText)
         Text(text = stringResource(id = R.string.question_how_are_you))
     }
 }
 
 @LanguagePreviews
 @Composable
-fun DefaultPreview() {
+fun GreetingPreview() {
     LanguageMattersTheme {
         Greeting("Android")
     }

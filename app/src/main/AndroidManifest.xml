@@ -10,11 +10,11 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.LanguageMatters"
-        tools:targetApi="31">
+        android:localeConfig="@xml/locales_config"
+        >
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:label="@string/app_name"
             android:theme="@style/Theme.LanguageMatters">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
