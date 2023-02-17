@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Language matters</string>
+    <string name="hello">Hello&#160;</string>
+    <string name="question_how_are_you">How are you?</string>
 </resources>

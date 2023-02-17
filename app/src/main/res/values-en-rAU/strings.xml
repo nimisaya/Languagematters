@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Language matters</string>
+    <string name="hello">G\'day&#160;</string>
+    <string name="question_how_are_you">How ya goin\'?</string>
+</resources>
