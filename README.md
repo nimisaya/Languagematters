@@ -7,7 +7,7 @@ This is a work in progress.
 
 ### Disclaimer
 
-I only really speak English (Australian) and some Bahasa Indonesia. I am relying on google translate for any other languages, so it may not quite make sense or I may use the wrong words.
+I only really speak English (Australian) and a little Bahasa Indonesia. I am relying on google translate for any other languages, so it may not quite make sense or I may use the wrong words.
 
 ### Resources
 
